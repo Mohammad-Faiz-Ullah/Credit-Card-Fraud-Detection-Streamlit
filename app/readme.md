@@ -1,4 +1,3 @@
----
 This repository contains a deployed machine learning application for detecting fraudulent credit card transactions using a trained Random Forest classifier.
 The project demonstrates a complete ML workflow: model training → evaluation → deployment → real-time & batch inference.
 
