@@ -45,6 +45,10 @@ The dataset used in this project is a credit card transaction dataset where sens
 
 Because the PCA transformation was already applied to the dataset, the deployed model operates directly on these transformed features rather than raw transaction attributes.
 
+## 📊 CSV format explanation:
+- The upload file should contain only time, v1…v28, amount.
+- A sample CSV is provided in the app/ folder.
+
 ---
 
 ## 🧠 How It Works
