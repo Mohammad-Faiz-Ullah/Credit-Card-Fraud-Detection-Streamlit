@@ -1,10 +1,3 @@
-## 📌 Project Overview
-This project focuses on building and optimizing machine learning models to detect fraudulent credit card transactions.  
-Fraud detection is a critical problem in the financial sector — detecting fraudulent transactions early helps prevent financial losses for customers and institutions.
-
-## 🎯 Goal
-To accurately classify transactions as **fraudulent** or **legitimate** using historical transaction data, while handling the **severe class imbalance** in fraud datasets.
-
 ## 🛠 Problem Statement
 Fraudulent transactions are rare compared to normal ones, making it challenging for standard machine learning algorithms to detect them effectively.  
 We address this by:
