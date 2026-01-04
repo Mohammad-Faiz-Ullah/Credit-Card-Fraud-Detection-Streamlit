@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load trained model
-model = joblib.load("fraud_model.pkl")
+model = joblib.load("app/fraud_model.pkl")
 
 st.set_page_config(page_title="Credit Card Fraud Detection", layout="wide")
 
@@ -121,3 +121,4 @@ if uploaded_file is not None:
             f"At threshold **{threshold:.2f}**, "
             f"**{fraud_above_threshold}** transactions are flagged as fraud."
         )
+
