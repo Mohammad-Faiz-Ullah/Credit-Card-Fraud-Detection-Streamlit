@@ -11,6 +11,7 @@ This repository contains a full credit card fraud detection project:
 ├── app/  
 │   ├── app.py                     # Streamlit app  
 │   ├── fraud_model.pkl            # saved model  
+|   ├── sample_test.csv            # Sample_dataset_to_show_structure_of_csv_that_app_accepts(DOWNLOAD IT & TEST IN APP !!)
 │   └── requirements.txt  
 └── README.md
 
