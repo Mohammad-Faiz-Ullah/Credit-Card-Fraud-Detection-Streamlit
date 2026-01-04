@@ -39,9 +39,8 @@ The `app/` folder contains a Streamlit app that:
 
 The dataset used in this project is a credit card transaction dataset where sensitive customer information has been anonymized.
 
-- Features **V1–V28** are **PCA-transformed components** derived from the original transaction features.
-- **Time** represents the seconds elapsed between each transaction and the first transaction in the dataset.
-- **Amount** represents the transaction amount.
+- Features **V1–V28** are **principal components obtained from PCA** to anonymize transaction attributes.
+- **Time** & **Amount** are the only untransformed raw features.
 - The target variable (`class`) indicates whether a transaction is fraudulent (1) or legitimate (0).
 
 Because the PCA transformation was already applied to the dataset, the deployed model operates directly on these transformed features rather than raw transaction attributes.
