@@ -11,6 +11,8 @@ This repository contains a full credit card fraud detection project:
 ## 📌 Live Demo
 *https://credit-card-fraud-detection-app-8uwp4pgd2gz559coaqugdz.streamlit.app/*
 
+---
+
 ## 📁 Repository Structure
 ├── eda/  
 │   └── main.ipynb                  # EDA + model comparison  
