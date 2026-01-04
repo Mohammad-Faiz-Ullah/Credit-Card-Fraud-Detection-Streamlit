@@ -8,6 +8,9 @@ This repository contains a full credit card fraud detection project:
 1. **Exploratory Data Analysis & Model Benchmarking**
 2. **Deployed Streamlit Application for Real-Time and Batch Inference**
 
+## 📌 Live Demo
+*https://credit-card-fraud-detection-app-8uwp4pgd2gz559coaqugdz.streamlit.app/*
+
 ## 📁 Repository Structure
 ├── eda/  
 │   └── main.ipynb                  # EDA + model comparison  
@@ -30,14 +33,19 @@ The `app/` folder contains a Streamlit app that:
 - Supports batch CSV upload
 - Offers a threshold slider for probability-based decisions
 
+## 🛠 Dataset & Feature Description
 
-## 📌 Live Demo
-*https://credit-card-fraud-detection-app-8uwp4pgd2gz559coaqugdz.streamlit.app/*
+The dataset used in this project is a credit card transaction dataset where sensitive customer information has been anonymized.
+
+- Features **V1–V28** are **PCA-transformed components** derived from the original transaction features.
+- **Time** represents the seconds elapsed between each transaction and the first transaction in the dataset.
+- **Amount** represents the transaction amount.
+- The target variable (`class`) indicates whether a transaction is fraudulent (1) or legitimate (0).
+
+Because the PCA transformation was already applied to the dataset, the deployed model operates directly on these transformed features rather than raw transaction attributes.
 
 ---
 
 ## 🧠 How It Works
 The model outputs a probability score and uses a threshold slider to classify fraud/legit. Lower thresholds increase recall (more frauds caught), higher thresholds increase precision (fewer false alarms).
 
-## 📜 Resume Summary
-Deployed an ML application integrating model evaluation and real-world inference with interactive visualization.
