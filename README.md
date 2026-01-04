@@ -1,4 +1,8 @@
-# Credit Card Fraud Detection (Research + Deployment)
+# 💳 Credit Card Fraud Detection (Research + Deployment)
+
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange)
+![Status](https://img.shields.io/badge/Status-Active-success)
 
 This repository contains a full credit card fraud detection project:
 1. **Exploratory Data Analysis & Model Benchmarking**
